@@ -1,0 +1,307 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Gemunu Libre', sans-serif;
+	font-size: 15px;
+	line-height: 23px;
+	background-color:white;
+}
+a {
+	text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Oswald', sans-serif;
+	
+	
+}
+/*...global css start....*/
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+.raw{
+	width: 100%;
+	float: left;
+}
+.col-12{
+	width: 100%;
+	float: left;
+}
+.col-6{
+	width: 50%;
+	float: left;
+}
+.col-4{
+	width: 33.33%;
+	float: left;
+}
+.col-3{
+	width: 25%;
+	float: left;
+}
+.col-5{
+	width: 41.66%;
+	float: left;
+}
+.col-8{
+	width: 75%;
+	float: left;
+}
+
+/*...global css end....*/
+/*...info css start....*/
+.info{
+	width: 100%;
+	height: 414px;
+	float: left;
+	background-color:#FFDEAD;
+	display: block;
+}
+.info h3{
+	font-size: 18px;
+	font-weight: 700;
+	color:brown;
+	width: 100%;
+	text-align:left;
+	padding: 20px 15px;
+	background-color:burlywood;
+	letter-spacing: 3px;
+}
+.menu{
+	width: 100%;
+	float: left;
+	background-color:khaki;
+}
+.menu li{
+	list-style: none;
+	float: left;
+	width: 16%;
+	margin: 0 1.7px;
+	display: inline-block;
+	padding:10px 0px;
+	text-align: center;
+	
+	background-color:  deepskyblue;
+}
+.menu li:hover{
+	background-color:fuchsia;
+}
+.menu li a{
+	font-size: 15px;
+	text-transform: capitalize;
+	
+	
+}
+.menu li a:hover{
+	color: antiquewhite;
+}
+.info h1{
+	font-size: 40px;
+	line-height: 50px;
+	font-weight: 800;
+	width: 100%;
+	text-align: center;
+	padding-top:70px ;
+	color:firebrick;
+	background-color:navajowhite;
+}
+.info p{
+	text-align: center;
+	color:rosybrown;
+    background-color:navajowhite;
+}
+.top-right-pic{
+	width: 100%;
+	float: left;
+}
+.top-right-pic img{
+	width: 100%;
+	height: 414px;
+}
+.fb-logo{
+	width: 160px;
+	position: fixed;
+	top: 20%;
+	right: -110px;
+	transition: 1s;
+}
+.fb-logo:hover{
+	right: 2px;
+}
+.instra{
+	width: 160px;
+	position: fixed;
+	top: 27%;
+	right: -110px;
+	transition: 1s;
+}
+.instra:hover{
+	right: 2px;
+}
+.youtube{
+	width: 160px;
+	position: fixed;
+	top: 35%;
+	right: -110px;
+	transition: 1s;
+}
+.youtube:hover{
+	right: 4px;
+}
+/*...info css end....*/
+	
+/*...about us css start....*/
+.aboutus{
+	width: 100%;
+	text-align: center;
+	float: left;
+}
+.about-us{
+	width: 100%;
+	padding: 50px 30px;
+	background-color: blanchedalmond;
+}
+.aboutus h1{
+	font-size: 30px;
+	line-height: 40px;
+	font-weight: 700;
+	width: 100%;
+	text-transform: uppercase;
+	color:crimson;
+	}
+.about-us p{
+	font-size: 16px;
+	line-height: 22px;
+	width: 70%;
+	margin-left: 140px;
+	color:blueviolet;
+	
+	
+}
+
+/*...about us css end....*/
+/*...showreel css start....*/
+.showreel{
+	width: 100%;
+}
+.showreel h1{
+	width: 100%;
+	font-size: 30px;
+	font-weight: 700;
+	padding: 30px 0;
+	text-align: center;
+	color: crimson;
+}
+.showreel img{
+	width:1190px;
+	height: 600px;
+}
+/*...showreel css end....*/
+/*....photo-section css start....*/
+.photo-section h1{
+	width: 100%;
+	font-size: 30px;
+	font-weight: 700;
+	padding: 30px 0;
+	text-align: center;
+	color: crimson;
+}
+.sadapator{
+	width: 90%;
+	height:  250px;
+	padding:30px 2px;
+}
+.historical{
+	width: 90%;
+	height: 250px;
+	padding: 30px 15px;
+	
+}
+.bandorban{
+	width: 95%;
+	height:  250px;
+	padding:30px 2px;
+}
+.tajmohol-infront{
+	width: 95%;
+	height:  250px;
+	padding:30px 2px;
+}
+.digital-markting{
+	width: 95%;
+	height:  250px;
+	padding:30px 2px;
+}
+.flower{
+	width: 95%;
+	height:  250px;
+	padding:30px 2px;
+}
+/*....photo-section css end....*/
+/*...contact-section css start....*/
+.contact-part{
+	width: 100%;
+	float: left;
+	padding: 30px 0;
+	
+}
+.library{
+	width: 95%;
+	float: left;
+	height: 500px;
+}
+.contact .representation{
+	width: 100%;
+	height: 500px;
+	background-color:#FFDEAD;
+	float: left;
+}
+.representation .manager{
+	width: 50%;
+	margin: auto;
+	padding: 60px 0;
+	text-transform: capitalize;
+	color: #B22222;
+	
+}
+.manager h1{
+	font-size: 60px;
+	line-height: 70px;
+	font-weight: 500;
+}
+.manager h3{
+	font-size: 30px;
+	line-height: 40px;
+	font-weight: 400;
+}
+.manager h4{
+	font-size: 20px;
+	line-height: 25px;
+	font-weight: 400;
+}
+/*...contact-section css end....*/
+/*....footer-section css start....*/
+footer{
+	text-align: center;
+	width: 100%;
+
+	
+}
+footer p{
+	padding: 30px 0;
+	background-color: #DEB887;
+}
+footer p a{
+	letter-spacing: 3px;
+	color: brown;
+}
+footer p a:hover{
+	cursor: pointer;
+	text-decoration: underline;
+	color:darkblue;
+	
+}
+/*....footer-section css end....*/
